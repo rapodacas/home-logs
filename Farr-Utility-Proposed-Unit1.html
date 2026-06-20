@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Property A Unit 1 — Proposed Utility Cost</title>
 <style>
   @page { size: letter; margin: 0.7in; }
@@ -37,6 +38,29 @@
   .note strong { color: #555; }
 
   .footer { margin-top: 28px; text-align: center; font-size: 11px; color: #aaa; border-top: 1px solid #ddd; padding-top: 10px; }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    body { padding: 0.4in; max-width: 100%; }
+    .header { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .header .right { text-align: left; }
+    .highlight-bar { flex-wrap: wrap; gap: 10px; }
+    .highlight-item { flex: 1 1 calc(50% - 10px); min-width: 120px; }
+    .highlight-item .num { font-size: 22px; }
+    table { font-size: 11px; }
+    th { font-size: 10px; padding: 5px 8px; }
+    td { padding: 4px 8px; }
+  }
+  @media (max-width: 480px) {
+    body { padding: 16px 12px; }
+    .header h1 { font-size: 18px; }
+    .highlight-bar { flex-direction: column; }
+    .highlight-item { flex: 1 1 100%; }
+    table { font-size: 10px; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    thead, tbody, tr { min-width: 420px; }
+    th { font-size: 9px; padding: 4px 6px; }
+    td { padding: 3px 6px; white-space: nowrap; }
+  }
 </style>
 </head>
 <body>
