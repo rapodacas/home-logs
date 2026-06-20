@@ -10,24 +10,24 @@
   body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; max-width: 8.5in; margin: 0 auto; padding: 0.6in; }
 
   .header { border-bottom: 3px solid #2c3e50; padding-bottom: 12px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: flex-end; }
-  .header h1 { font-size: 22px; color: #2c3e50; }
-  .header .right { text-align: right; font-size: 13px; color: #666; }
+  .header h1 { font-size: 30px; color: #2c3e50; }
+  .header .right { text-align: right; font-size: 16px; color: #666; }
   .header .right strong { color: #333; }
-  .header .badge { display: inline-block; background: #2c3e50; color: white; font-size: 10px; padding: 2px 8px; border-radius: 3px; margin-bottom: 4px; }
+  .header .badge { display: inline-block; background: #2c3e50; color: white; font-size: 12px; padding: 2px 8px; border-radius: 3px; margin-bottom: 4px; }
 
   .highlight-bar { display: flex; gap: 14px; margin-bottom: 24px; }
   .highlight-item { flex: 1; text-align: center; padding: 14px 8px; background: #f4f7fa; border-radius: 8px; }
-  .highlight-item .num { font-size: 22px; font-weight: 700; color: #2c3e50; }
-  .highlight-item .lbl { font-size: 10px; color: #888; margin-top: 2px; }
+  .highlight-item .num { font-size: 32px; font-weight: 700; color: #2c3e50; }
+  .highlight-item .lbl { font-size: 13px; color: #888; margin-top: 2px; }
   .highlight-item.green { background: #eaf7ef; }
   .highlight-item.green .num { color: #27ae60; }
   .highlight-item.red { background: #fef0f0; }
   .highlight-item.red .num { color: #e74c3c; }
 
-  h2 { font-size: 14px; color: #2c3e50; margin: 22px 0 8px; }
+  h2 { font-size: 20px; color: #2c3e50; margin: 22px 0 8px; }
 
-  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 16px; }
-  th { background: #2c3e50; color: white; padding: 6px 8px; text-align: left; font-weight: 600; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin-bottom: 16px; }
+  th { background: #2c3e50; color: white; padding: 6px 8px; text-align: left; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.3px; }
   th.r, td.r { text-align: right; }
   td { padding: 5px 8px; border-bottom: 1px solid #e8e8e8; }
   tr:nth-child(even) td { background: #fafbfc; }
@@ -40,17 +40,17 @@
   .two-col { display: flex; gap: 24px; }
   .two-col > div { flex: 1; }
 
-  .cost-list { font-size: 12px; }
+  .cost-list { font-size: 16px; }
   .cost-list .row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #eee; }
   .cost-list .row.total { border-top: 2px solid #2c3e50; border-bottom: none; margin-top: 4px; padding-top: 8px; font-weight: 700; color: #2c3e50; }
   .cost-list .row.subtotal { border-top: 1px solid #aaa; margin-top: 4px; padding-top: 6px; font-weight: 600; }
 
   .section-divider { border: none; border-top: 2px solid #ddd; margin: 22px 0; }
 
-  .note { margin-top: 18px; font-size: 11px; color: #777; padding: 10px 12px; background: #f9f9f9; border-radius: 6px; line-height: 1.5; }
+  .note { margin-top: 18px; font-size: 14px; color: #777; padding: 10px 12px; background: #f9f9f9; border-radius: 6px; line-height: 1.5; }
   .note strong { color: #555; }
 
-  .footer { margin-top: 24px; text-align: center; font-size: 10px; color: #aaa; border-top: 1px solid #ddd; padding-top: 8px; }
+  .footer { margin-top: 24px; text-align: center; font-size: 14px; color: #aaa; border-top: 1px solid #ddd; padding-top: 8px; }
 
   @media print { body { padding: 0; } }
 
@@ -61,21 +61,21 @@
     .header .right { text-align: left; }
     .highlight-bar { flex-wrap: wrap; gap: 10px; }
     .highlight-item { flex: 1 1 calc(50% - 10px); min-width: 120px; }
-    .highlight-item .num { font-size: 18px; }
+    .highlight-item .num { font-size: 26px; }
     .two-col { flex-direction: column; gap: 16px; }
-    table { font-size: 11px; }
-    th { font-size: 9px; padding: 5px 6px; }
+    table { font-size: 14px; }
+    th { font-size: 12px; padding: 5px 6px; }
     td { padding: 4px 6px; }
   }
   @media (max-width: 480px) {
-    body { padding: 16px 12px; }
-    .header h1 { font-size: 18px; }
+    body { padding: 16px 12px; font-size: 15px; }
+    .header h1 { font-size: 24px; }
     .highlight-bar { flex-direction: column; }
     .highlight-item { flex: 1 1 100%; }
-    .highlight-item .num { font-size: 22px; }
-    table { font-size: 10px; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .highlight-item .num { font-size: 28px; }
+    table { font-size: 13px; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
     thead, tbody, tr { min-width: 500px; }
-    th { font-size: 8px; padding: 4px 5px; }
+    th { font-size: 11px; padding: 4px 5px; }
     td { padding: 3px 5px; white-space: nowrap; }
   }
 </style>
@@ -256,7 +256,7 @@
       <div class="row"><span>Additional Trash Cart</span><span>$5.85</span></div>
       <div class="row total"><span>Fixed Total / Month</span><span>$243.28</span></div>
     </div>
-    <p style="font-size: 11px; color: #888; margin-top: 8px;">
+    <p style="font-size: 14px; color: #888; margin-top: 8px;">
       Backbill ends Aug 2026 ($11.40 remaining). Fixed drops to $233.28/mo after.
     </p>
   </div>
@@ -269,7 +269,7 @@
       <div class="row"><span>Annual collected (2 units)</span><span>$7,200</span></div>
       <div class="row total"><span>Projected annual net</span><span style="color:#27ae60">+$3,185</span></div>
     </div>
-    <p style="font-size: 11px; color: #888; margin-top: 8px;">
+    <p style="font-size: 14px; color: #888; margin-top: 8px;">
       With Unit 2 occupied from June, utility income doubles to $600/mo while costs increase modestly. Summer electric/gas will rise but solar+battery offset most electric.
     </p>
   </div>

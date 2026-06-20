@@ -10,25 +10,25 @@
   body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; max-width: 8.5in; margin: 0 auto; padding: 0.6in; }
 
   .header { border-bottom: 3px solid #1a5276; padding-bottom: 12px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: flex-end; }
-  .header h1 { font-size: 22px; color: #1a5276; }
-  .header .right { text-align: right; font-size: 13px; color: #666; }
+  .header h1 { font-size: 30px; color: #1a5276; }
+  .header .right { text-align: right; font-size: 16px; color: #666; }
   .header .right strong { color: #333; }
 
-  .intro { font-size: 13px; color: #555; margin-bottom: 20px; line-height: 1.7; }
+  .intro { font-size: 16px; color: #555; margin-bottom: 20px; line-height: 1.7; }
 
   .highlight-bar { display: flex; gap: 14px; margin-bottom: 24px; }
   .highlight-item { flex: 1; text-align: center; padding: 14px 8px; background: #f4f7fa; border-radius: 8px; }
-  .highlight-item .num { font-size: 24px; font-weight: 700; color: #1a5276; }
-  .highlight-item .lbl { font-size: 10px; color: #888; margin-top: 2px; }
+  .highlight-item .num { font-size: 34px; font-weight: 700; color: #1a5276; }
+  .highlight-item .lbl { font-size: 13px; color: #888; margin-top: 2px; }
   .highlight-item.accent { background: #eaf7ef; }
   .highlight-item.accent .num { color: #27ae60; }
   .highlight-item.warn { background: #fef5e7; }
   .highlight-item.warn .num { color: #e67e22; }
 
-  h2 { font-size: 14px; color: #1a5276; margin: 20px 0 8px; }
+  h2 { font-size: 20px; color: #1a5276; margin: 20px 0 8px; }
 
-  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 16px; }
-  th { background: #1a5276; color: white; padding: 6px 8px; text-align: left; font-weight: 600; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin-bottom: 16px; }
+  th { background: #1a5276; color: white; padding: 6px 8px; text-align: left; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.3px; }
   th.r, td.r { text-align: right; }
   td { padding: 5px 8px; border-bottom: 1px solid #e8e8e8; }
   tr:nth-child(even) td { background: #fafbfc; }
@@ -39,13 +39,13 @@
 
   .services { display: flex; gap: 12px; margin: 16px 0; }
   .service-card { flex: 1; padding: 12px; background: #f7f9fb; border-radius: 8px; border: 1px solid #e0e0e0; }
-  .service-card h3 { font-size: 12px; color: #1a5276; margin-bottom: 4px; }
-  .service-card p { font-size: 11px; color: #666; line-height: 1.4; }
+  .service-card h3 { font-size: 16px; color: #1a5276; margin-bottom: 4px; }
+  .service-card p { font-size: 14px; color: #666; line-height: 1.4; }
 
-  .note { margin-top: 18px; font-size: 11px; color: #777; padding: 10px 12px; background: #f9f9f9; border-radius: 6px; line-height: 1.5; }
+  .note { margin-top: 18px; font-size: 14px; color: #777; padding: 10px 12px; background: #f9f9f9; border-radius: 6px; line-height: 1.5; }
   .note strong { color: #555; }
 
-  .footer { margin-top: 24px; text-align: center; font-size: 10px; color: #aaa; border-top: 1px solid #ddd; padding-top: 8px; }
+  .footer { margin-top: 24px; text-align: center; font-size: 14px; color: #aaa; border-top: 1px solid #ddd; padding-top: 8px; }
 
   @media print { body { padding: 0; } }
 
@@ -56,24 +56,24 @@
     .header .right { text-align: left; }
     .highlight-bar { flex-wrap: wrap; gap: 10px; }
     .highlight-item { flex: 1 1 calc(50% - 10px); min-width: 120px; }
-    .highlight-item .num { font-size: 20px; }
+    .highlight-item .num { font-size: 28px; }
     .services { flex-wrap: wrap; gap: 10px; }
     .service-card { flex: 1 1 calc(50% - 10px); min-width: 140px; }
-    table { font-size: 11px; }
-    th { font-size: 9px; padding: 5px 6px; }
+    table { font-size: 14px; }
+    th { font-size: 12px; padding: 5px 6px; }
     td { padding: 4px 6px; }
   }
   @media (max-width: 480px) {
-    body { padding: 16px 12px; }
-    .header h1 { font-size: 18px; }
+    body { padding: 16px 12px; font-size: 15px; }
+    .header h1 { font-size: 24px; }
     .highlight-bar { flex-direction: column; }
     .highlight-item { flex: 1 1 100%; }
-    .highlight-item .num { font-size: 22px; }
+    .highlight-item .num { font-size: 28px; }
     .services { flex-direction: column; }
     .service-card { flex: 1 1 100%; }
-    table { font-size: 10px; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    table { font-size: 13px; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
     thead, tbody, tr { min-width: 500px; }
-    th { font-size: 8px; padding: 4px 5px; }
+    th { font-size: 11px; padding: 4px 5px; }
     td { padding: 3px 5px; white-space: nowrap; }
   }
 </style>
