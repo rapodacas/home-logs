@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>864 Farr Ave Unit 2 — Proposed Utility Cost</title>
+<style>
+  @page { size: letter; margin: 0.7in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; max-width: 8.5in; margin: 0 auto; padding: 0.7in; }
+
+  .header { border-bottom: 3px solid #1a5276; padding-bottom: 12px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .header h1 { font-size: 22px; color: #1a5276; }
+  .header .right { text-align: right; font-size: 13px; color: #666; }
+  .header .right strong { color: #333; }
+  .header .badge { display: inline-block; background: #e67e22; color: white; font-size: 10px; padding: 2px 8px; border-radius: 3px; margin-bottom: 4px; }
+
+  .intro { font-size: 13px; color: #555; margin-bottom: 22px; line-height: 1.7; }
+
+  .highlight-bar { display: flex; gap: 16px; margin-bottom: 26px; }
+  .highlight-item { flex: 1; text-align: center; padding: 16px 10px; background: #f4f7fa; border-radius: 8px; }
+  .highlight-item .num { font-size: 26px; font-weight: 700; color: #1a5276; }
+  .highlight-item .lbl { font-size: 11px; color: #888; margin-top: 2px; }
+  .highlight-item.accent { background: #eaf7ef; }
+  .highlight-item.accent .num { color: #27ae60; }
+  .highlight-item.warn { background: #fef5e7; }
+  .highlight-item.warn .num { color: #e67e22; }
+
+  h2 { font-size: 15px; color: #1a5276; margin: 22px 0 10px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 18px; }
+  th { background: #1a5276; color: white; padding: 7px 10px; text-align: left; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; }
+  th.r, td.r { text-align: right; }
+  td { padding: 6px 10px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) td { background: #fafbfc; }
+  tr.total td { font-weight: 700; border-top: 2px solid #1a5276; background: #eef3f8; }
+
+  .note { margin-top: 22px; font-size: 12px; color: #777; padding: 12px 14px; background: #f9f9f9; border-radius: 6px; line-height: 1.6; }
+  .note strong { color: #555; }
+
+  .footer { margin-top: 28px; text-align: center; font-size: 11px; color: #aaa; border-top: 1px solid #ddd; padding-top: 10px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="badge">UNIT 2 &mdash; PROPOSED</div>
+    <h1>Utility Cost Estimate &mdash; 864 Farr Ave</h1>
+  </div>
+  <div class="right">
+    <strong>Based on Jan &ndash; Jun 2026 actuals</strong><br>
+    Escondido, CA 92026<br>
+    2 Adults + 1 Child
+  </div>
+</div>
+
+<p class="intro">
+  This is a projected monthly utility cost for Unit 2, based on actual 2026 billing data. Fixed costs are split equally between the two units. Variable costs (water usage, electric, gas) are allocated proportionally by household size: Unit 1 (2 adults) = 40%, Unit 2 (2 adults + 1 child) = 60%.
+</p>
+
+<div class="highlight-bar">
+  <div class="highlight-item warn">
+    <div class="num">$259</div>
+    <div class="lbl">Est. Monthly Cost</div>
+  </div>
+  <div class="highlight-item accent">
+    <div class="num">$300</div>
+    <div class="lbl">Current Utility Charge</div>
+  </div>
+  <div class="highlight-item accent">
+    <div class="num">$41</div>
+    <div class="lbl">Monthly Surplus</div>
+  </div>
+</div>
+
+<h2>Estimated Monthly Cost Breakdown</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Utility</th>
+      <th class="r">Property Total (Avg/Mo)</th>
+      <th>Split Method</th>
+      <th class="r">Unit 2 Share</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Water Service</td>
+      <td class="r">$101.50</td>
+      <td>50 / 50</td>
+      <td class="r">$50.75</td>
+    </tr>
+    <tr>
+      <td>Water Usage</td>
+      <td class="r">$47.71</td>
+      <td>60% (3 of 5 people)</td>
+      <td class="r">$71.57</td>
+    </tr>
+    <tr>
+      <td>Sewer</td>
+      <td class="r">$103.06</td>
+      <td>50 / 50</td>
+      <td class="r">$51.53</td>
+    </tr>
+    <tr>
+      <td>Trash &amp; Recycling</td>
+      <td class="r">$38.72</td>
+      <td>50 / 50</td>
+      <td class="r">$19.36</td>
+    </tr>
+    <tr>
+      <td>Electric</td>
+      <td class="r">$20.79</td>
+      <td>60% (3 of 5 people)</td>
+      <td class="r">$31.19</td>
+    </tr>
+    <tr>
+      <td>Gas</td>
+      <td class="r">$23.03</td>
+      <td>60% (3 of 5 people)</td>
+      <td class="r">$34.55</td>
+    </tr>
+    <tr class="total">
+      <td>Estimated Monthly Total</td>
+      <td class="r">$334.81</td>
+      <td></td>
+      <td class="r">$258.95</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>How Variable Costs Are Calculated</h2>
+<p style="font-size: 12px; color: #555; line-height: 1.6; margin-bottom: 12px;">
+  The property's actual 6-month average variable costs reflect usage by approximately 2 people. With full occupancy (5 people total), total variable costs are projected to scale by 2.5x. Unit 2's share (2 adults + 1 child = 60%) is higher due to the larger household.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable Cost</th>
+      <th class="r">6-Mo Actual</th>
+      <th class="r">Avg/Mo (2 people)</th>
+      <th class="r">Projected Total (5 people)</th>
+      <th class="r">Unit 2 (60%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Water Usage</td><td class="r">$286.25</td><td class="r">$47.71</td><td class="r">$119.27</td><td class="r">$71.57</td></tr>
+    <tr><td>Electric</td><td class="r">$124.71</td><td class="r">$20.79</td><td class="r">$51.96</td><td class="r">$31.19</td></tr>
+    <tr><td>Gas</td><td class="r">$138.18</td><td class="r">$23.03</td><td class="r">$57.58</td><td class="r">$34.55</td></tr>
+    <tr class="total"><td>Total Variable</td><td class="r">$549.14</td><td class="r">$91.52</td><td class="r">$228.81</td><td class="r">$137.31</td></tr>
+  </tbody>
+</table>
+
+<div class="note">
+  <strong>Note:</strong> This estimate is based on actual utility bills from January through June 2026. Summer months typically see higher water and gas usage, which could push Unit 2's actual costs closer to the $300 charge. The property has rooftop solar (3.58 kW) and a Tesla Powerwall battery that offset most electric costs. The 60/40 split reflects the larger household size (3 vs 2 occupants).
+</div>
+
+<div class="footer">Proposed Estimate &bull; June 2026 &bull; 864 Farr Ave Unit 2, Escondido CA 92026</div>
+
+</body>
+</html>

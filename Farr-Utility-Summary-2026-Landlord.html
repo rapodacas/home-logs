@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>864 Farr Ave — Landlord Utility Summary 2026</title>
+<style>
+  @page { size: letter; margin: 0.6in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; max-width: 8.5in; margin: 0 auto; padding: 0.6in; }
+
+  .header { border-bottom: 3px solid #2c3e50; padding-bottom: 12px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .header h1 { font-size: 22px; color: #2c3e50; }
+  .header .right { text-align: right; font-size: 13px; color: #666; }
+  .header .right strong { color: #333; }
+  .header .badge { display: inline-block; background: #2c3e50; color: white; font-size: 10px; padding: 2px 8px; border-radius: 3px; margin-bottom: 4px; }
+
+  .highlight-bar { display: flex; gap: 14px; margin-bottom: 24px; }
+  .highlight-item { flex: 1; text-align: center; padding: 14px 8px; background: #f4f7fa; border-radius: 8px; }
+  .highlight-item .num { font-size: 22px; font-weight: 700; color: #2c3e50; }
+  .highlight-item .lbl { font-size: 10px; color: #888; margin-top: 2px; }
+  .highlight-item.green { background: #eaf7ef; }
+  .highlight-item.green .num { color: #27ae60; }
+  .highlight-item.red { background: #fef0f0; }
+  .highlight-item.red .num { color: #e74c3c; }
+
+  h2 { font-size: 14px; color: #2c3e50; margin: 22px 0 8px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 16px; }
+  th { background: #2c3e50; color: white; padding: 6px 8px; text-align: left; font-weight: 600; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; }
+  th.r, td.r { text-align: right; }
+  td { padding: 5px 8px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) td { background: #fafbfc; }
+  tr.total td { font-weight: 700; border-top: 2px solid #2c3e50; background: #eef2f5; }
+  tr.avg td { font-weight: 600; background: #f0f7f3; }
+
+  .credit { color: #27ae60; }
+  .loss { color: #e74c3c; }
+
+  .two-col { display: flex; gap: 24px; }
+  .two-col > div { flex: 1; }
+
+  .cost-list { font-size: 12px; }
+  .cost-list .row { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px solid #eee; }
+  .cost-list .row.total { border-top: 2px solid #2c3e50; border-bottom: none; margin-top: 4px; padding-top: 8px; font-weight: 700; color: #2c3e50; }
+  .cost-list .row.subtotal { border-top: 1px solid #aaa; margin-top: 4px; padding-top: 6px; font-weight: 600; }
+
+  .section-divider { border: none; border-top: 2px solid #ddd; margin: 22px 0; }
+
+  .note { margin-top: 18px; font-size: 11px; color: #777; padding: 10px 12px; background: #f9f9f9; border-radius: 6px; line-height: 1.5; }
+  .note strong { color: #555; }
+
+  .footer { margin-top: 24px; text-align: center; font-size: 10px; color: #aaa; border-top: 1px solid #ddd; padding-top: 8px; }
+
+  @media print { body { padding: 0; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="badge">LANDLORD COPY</div>
+    <h1>Utility Summary &mdash; 864 Farr Ave</h1>
+  </div>
+  <div class="right">
+    <strong>January &ndash; June 2026</strong><br>
+    Escondido, CA 92026<br>
+    2-Unit Rental Property
+  </div>
+</div>
+
+<div class="highlight-bar">
+  <div class="highlight-item red">
+    <div class="num">$2,009</div>
+    <div class="lbl">Total Utility Cost</div>
+  </div>
+  <div class="highlight-item green">
+    <div class="num">$2,100</div>
+    <div class="lbl">Total Collected</div>
+  </div>
+  <div class="highlight-item green">
+    <div class="num">+$91</div>
+    <div class="lbl">Net (6 mo)</div>
+  </div>
+  <div class="highlight-item">
+    <div class="num">$335</div>
+    <div class="lbl">Avg Cost / Month</div>
+  </div>
+  <div class="highlight-item">
+    <div class="num">$350</div>
+    <div class="lbl">Avg Collected / Month</div>
+  </div>
+</div>
+
+<!-- ===================== UNIT INCOME ===================== -->
+<h2>Utility Charge Income</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th class="r">Unit 1 ($300/mo)</th>
+      <th class="r">Unit 2 ($300/mo)</th>
+      <th class="r">Total Collected</th>
+      <th class="r">Actual Cost</th>
+      <th class="r">Net +/-</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>January</td><td class="r">$300</td><td class="r">&mdash;</td><td class="r">$300</td><td class="r">$529.12</td><td class="r loss">-$229.12</td></tr>
+    <tr><td>February</td><td class="r">$300</td><td class="r">&mdash;</td><td class="r">$300</td><td class="r">$241.40</td><td class="r credit">+$58.60</td></tr>
+    <tr><td>March</td><td class="r">$300</td><td class="r">&mdash;</td><td class="r">$300</td><td class="r">$236.21</td><td class="r credit">+$63.79</td></tr>
+    <tr><td>April</td><td class="r">$300</td><td class="r">&mdash;</td><td class="r">$300</td><td class="r">$336.44</td><td class="r loss">-$36.44</td></tr>
+    <tr><td>May</td><td class="r">$300</td><td class="r">&mdash;</td><td class="r">$300</td><td class="r">$305.28</td><td class="r loss">-$5.28</td></tr>
+    <tr><td>June</td><td class="r">$300</td><td class="r">$300</td><td class="r">$600</td><td class="r">$360.37</td><td class="r credit">+$239.63</td></tr>
+    <tr class="total"><td>Total</td><td class="r">$1,800</td><td class="r">$300</td><td class="r">$2,100</td><td class="r">$2,008.82</td><td class="r credit">+$91.18</td></tr>
+  </tbody>
+</table>
+
+<hr class="section-divider">
+
+<!-- ===================== DETAILED COSTS ===================== -->
+<h2>Actual Monthly Utility Costs (All Providers)</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th class="r">Water Svc</th>
+      <th class="r">Water Use</th>
+      <th class="r">Sewer</th>
+      <th class="r">Trash</th>
+      <th class="r">Electric</th>
+      <th class="r">Gas</th>
+      <th class="r">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td class="r">$101.50</td>
+      <td class="r">$29.46</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r">$213.81</td>
+      <td class="r">$42.57</td>
+      <td class="r">$529.12</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td class="r">$101.50</td>
+      <td class="r">$20.51</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$35.72</td>
+      <td class="r">$13.33</td>
+      <td class="r">$241.40</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td class="r">$101.50</td>
+      <td class="r">$11.00</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$31.42</td>
+      <td class="r">$13.35</td>
+      <td class="r">$236.21</td>
+    </tr>
+    <tr>
+      <td>April</td>
+      <td class="r">$101.50</td>
+      <td class="r">$126.28</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$25.30</td>
+      <td class="r credit">-$7.82</td>
+      <td class="r">$336.44</td>
+    </tr>
+    <tr>
+      <td>May</td>
+      <td class="r">$101.50</td>
+      <td class="r">$55.00</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$27.83</td>
+      <td class="r">$34.83</td>
+      <td class="r">$305.28</td>
+    </tr>
+    <tr>
+      <td>June</td>
+      <td class="r">$101.50</td>
+      <td class="r">$44.00</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r">$31.17</td>
+      <td class="r">$41.92</td>
+      <td class="r">$360.37</td>
+    </tr>
+    <tr class="total">
+      <td>Total</td>
+      <td class="r">$609.00</td>
+      <td class="r">$286.25</td>
+      <td class="r">$618.36</td>
+      <td class="r">$232.32</td>
+      <td class="r">$124.71</td>
+      <td class="r">$138.18</td>
+      <td class="r">$2,008.82</td>
+    </tr>
+    <tr class="avg">
+      <td>Monthly Avg</td>
+      <td class="r">$102</td>
+      <td class="r">$48</td>
+      <td class="r">$103</td>
+      <td class="r">$39</td>
+      <td class="r">$21</td>
+      <td class="r">$23</td>
+      <td class="r">$335</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr class="section-divider">
+
+<!-- ===================== FIXED vs VARIABLE ===================== -->
+<div class="two-col">
+  <div>
+    <h2>Fixed Monthly Costs</h2>
+    <div class="cost-list">
+      <div class="row"><span>Water Service (meter)</span><span>$101.50</span></div>
+      <div class="row"><span>Wastewater / Sewer</span><span>$93.06</span></div>
+      <div class="row"><span>Wastewater Backbill</span><span>$10.00</span></div>
+      <div class="row"><span>Trash &amp; Recycling</span><span>$32.87</span></div>
+      <div class="row"><span>Additional Trash Cart</span><span>$5.85</span></div>
+      <div class="row total"><span>Fixed Total / Month</span><span>$243.28</span></div>
+    </div>
+    <p style="font-size: 11px; color: #888; margin-top: 8px;">
+      Backbill ends Aug 2026 ($11.40 remaining). Fixed drops to $233.28/mo after.
+    </p>
+  </div>
+  <div>
+    <h2>Projection &amp; Notes</h2>
+    <div class="cost-list">
+      <div class="row"><span>Fixed costs (annual est.)</span><span>$2,919</span></div>
+      <div class="row"><span>Variable costs (annual est.)</span><span>$1,096</span></div>
+      <div class="row subtotal"><span>Projected annual cost</span><span>$4,015</span></div>
+      <div class="row"><span>Annual collected (2 units)</span><span>$7,200</span></div>
+      <div class="row total"><span>Projected annual net</span><span style="color:#27ae60">+$3,185</span></div>
+    </div>
+    <p style="font-size: 11px; color: #888; margin-top: 8px;">
+      With Unit 2 occupied from June, utility income doubles to $600/mo while costs increase modestly. Summer electric/gas will rise but solar+battery offset most electric.
+    </p>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ===================== ACCOUNTS ===================== -->
+<h2>Account Reference</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Service</th>
+      <th>Provider</th>
+      <th>Account #</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Water / Sewer / Trash</td><td>City of Escondido</td><td>1387976877</td><td>Auto-pay. New rates Jul 1, 2026.</td></tr>
+    <tr><td>Electric</td><td>SDG&amp;E + CEA</td><td>0023 1129 3886 3</td><td>NEM 2.0, 3.58 kW solar + Powerwall. True-up May 6, 2027.</td></tr>
+    <tr><td>Gas</td><td>SDG&amp;E</td><td>0023 1129 1720 6</td><td>Separate meter from electric.</td></tr>
+  </tbody>
+</table>
+
+<div class="note">
+  <strong>Key dates:</strong> New Escondido water/sewer rates effective July 1, 2026. Wastewater backbill paid off by August. Electric NEM true-up May 6, 2027. Unit 2 lease started June 2, 2026.
+  <br><br>
+  <strong>Summer outlook:</strong> Expect higher water usage (irrigation), higher gas (water heater with 2 units occupied), and slightly higher electric. Solar+battery should keep electric near breakeven. Consider reviewing the $300 utility charge after Q3 data is available.
+</div>
+
+<div class="footer">Landlord Copy &bull; Prepared June 2026 &bull; 864 Farr Ave, Escondido CA 92026</div>
+
+</body>
+</html>

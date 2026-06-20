@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>864 Farr Ave — Utility Overview for Tenants</title>
+<style>
+  @page { size: letter; margin: 0.6in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6; max-width: 8.5in; margin: 0 auto; padding: 0.6in; }
+
+  .header { border-bottom: 3px solid #1a5276; padding-bottom: 12px; margin-bottom: 22px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .header h1 { font-size: 22px; color: #1a5276; }
+  .header .right { text-align: right; font-size: 13px; color: #666; }
+  .header .right strong { color: #333; }
+
+  .intro { font-size: 13px; color: #555; margin-bottom: 20px; line-height: 1.7; }
+
+  .highlight-bar { display: flex; gap: 14px; margin-bottom: 24px; }
+  .highlight-item { flex: 1; text-align: center; padding: 14px 8px; background: #f4f7fa; border-radius: 8px; }
+  .highlight-item .num { font-size: 24px; font-weight: 700; color: #1a5276; }
+  .highlight-item .lbl { font-size: 10px; color: #888; margin-top: 2px; }
+  .highlight-item.accent { background: #eaf7ef; }
+  .highlight-item.accent .num { color: #27ae60; }
+  .highlight-item.warn { background: #fef5e7; }
+  .highlight-item.warn .num { color: #e67e22; }
+
+  h2 { font-size: 14px; color: #1a5276; margin: 20px 0 8px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-bottom: 16px; }
+  th { background: #1a5276; color: white; padding: 6px 8px; text-align: left; font-weight: 600; font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; }
+  th.r, td.r { text-align: right; }
+  td { padding: 5px 8px; border-bottom: 1px solid #e8e8e8; }
+  tr:nth-child(even) td { background: #fafbfc; }
+  tr.total td { font-weight: 700; border-top: 2px solid #1a5276; background: #eef3f8; }
+  tr.avg td { font-weight: 600; background: #f0f7f3; }
+
+  .credit { color: #27ae60; }
+
+  .services { display: flex; gap: 12px; margin: 16px 0; }
+  .service-card { flex: 1; padding: 12px; background: #f7f9fb; border-radius: 8px; border: 1px solid #e0e0e0; }
+  .service-card h3 { font-size: 12px; color: #1a5276; margin-bottom: 4px; }
+  .service-card p { font-size: 11px; color: #666; line-height: 1.4; }
+
+  .note { margin-top: 18px; font-size: 11px; color: #777; padding: 10px 12px; background: #f9f9f9; border-radius: 6px; line-height: 1.5; }
+  .note strong { color: #555; }
+
+  .footer { margin-top: 24px; text-align: center; font-size: 10px; color: #aaa; border-top: 1px solid #ddd; padding-top: 8px; }
+
+  @media print { body { padding: 0; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Utility Overview &mdash; 864 Farr Ave</h1>
+  <div class="right">
+    <strong>January &ndash; June 2026</strong><br>
+    Escondido, CA 92026
+  </div>
+</div>
+
+<p class="intro">
+  This summary provides transparency into the actual utility costs for the property. All utilities &mdash; water, sewer, trash, electric, and gas &mdash; are included in your monthly rent as a $300 utility charge. Below is a breakdown of what those services actually cost.
+</p>
+
+<div class="highlight-bar">
+  <div class="highlight-item warn">
+    <div class="num">$335</div>
+    <div class="lbl">Avg Monthly Cost</div>
+  </div>
+  <div class="highlight-item accent">
+    <div class="num">$300</div>
+    <div class="lbl">Your Utility Charge</div>
+  </div>
+  <div class="highlight-item">
+    <div class="num">$2,009</div>
+    <div class="lbl">Actual Cost (6 mo)</div>
+  </div>
+  <div class="highlight-item">
+    <div class="num">$1,800</div>
+    <div class="lbl">Collected (6 mo)</div>
+  </div>
+</div>
+
+<!-- ===================== WHAT'S INCLUDED ===================== -->
+<h2>What's Included</h2>
+<div class="services">
+  <div class="service-card">
+    <h3>Water</h3>
+    <p>City of Escondido. Service charge + usage.</p>
+  </div>
+  <div class="service-card">
+    <h3>Sewer</h3>
+    <p>Wastewater based on winter avg water use.</p>
+  </div>
+  <div class="service-card">
+    <h3>Trash</h3>
+    <p>Weekly trash, recycling &amp; organics pickup.</p>
+  </div>
+  <div class="service-card">
+    <h3>Electric</h3>
+    <p>SDG&amp;E + CEA. Solar offsets most usage.</p>
+  </div>
+  <div class="service-card">
+    <h3>Gas</h3>
+    <p>SDG&amp;E natural gas for heating &amp; cooking.</p>
+  </div>
+</div>
+
+<!-- ===================== MONTHLY COSTS ===================== -->
+<h2>Actual Monthly Utility Costs</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th class="r">Water Service</th>
+      <th class="r">Water Usage</th>
+      <th class="r">Sewer</th>
+      <th class="r">Trash</th>
+      <th class="r">Electric</th>
+      <th class="r">Gas</th>
+      <th class="r">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td class="r">$101.50</td>
+      <td class="r">$29.46</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r">$213.81</td>
+      <td class="r">$42.57</td>
+      <td class="r">$529.12</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td class="r">$101.50</td>
+      <td class="r">$20.51</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$35.72</td>
+      <td class="r">$13.33</td>
+      <td class="r">$241.40</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td class="r">$101.50</td>
+      <td class="r">$11.00</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$31.42</td>
+      <td class="r">$13.35</td>
+      <td class="r">$236.21</td>
+    </tr>
+    <tr>
+      <td>April</td>
+      <td class="r">$101.50</td>
+      <td class="r">$126.28</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$25.30</td>
+      <td class="r credit">-$7.82</td>
+      <td class="r">$336.44</td>
+    </tr>
+    <tr>
+      <td>May</td>
+      <td class="r">$101.50</td>
+      <td class="r">$55.00</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r credit">-$27.83</td>
+      <td class="r">$34.83</td>
+      <td class="r">$305.28</td>
+    </tr>
+    <tr>
+      <td>June</td>
+      <td class="r">$101.50</td>
+      <td class="r">$44.00</td>
+      <td class="r">$103.06</td>
+      <td class="r">$38.72</td>
+      <td class="r">$31.17</td>
+      <td class="r">$41.92</td>
+      <td class="r">$360.37</td>
+    </tr>
+    <tr class="total">
+      <td>Total</td>
+      <td class="r">$609.00</td>
+      <td class="r">$286.25</td>
+      <td class="r">$618.36</td>
+      <td class="r">$232.32</td>
+      <td class="r">$124.71</td>
+      <td class="r">$138.18</td>
+      <td class="r">$2,008.82</td>
+    </tr>
+    <tr class="avg">
+      <td>Monthly Avg</td>
+      <td class="r">$102</td>
+      <td class="r">$48</td>
+      <td class="r">$103</td>
+      <td class="r">$39</td>
+      <td class="r">$21</td>
+      <td class="r">$23</td>
+      <td class="r">$335</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="note">
+  <strong>About electric credits:</strong> The property has rooftop solar panels and a battery system. In months when more energy is produced than consumed, the electric bill shows a credit (negative amount). April gas also received a California Climate Credit (-$32.58). Your utility charge remains a flat $300/month regardless of seasonal variation.
+  <br><br>
+  <strong>Note:</strong> Water includes the service charge ($101.50/mo) plus usage. Sewer includes a $10/mo backbill installment that will end August 2026. New City of Escondido water/sewer rates take effect July 1, 2026.
+</div>
+
+<div class="footer">Prepared June 2026 &bull; 864 Farr Ave, Escondido CA 92026</div>
+
+</body>
+</html>
